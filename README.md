@@ -1,6 +1,6 @@
-# roboto_deploy
+# roboparty_go
 
-This repository contains deployment and runtime configurations for the RoboParty robots.
+This repository contains runtime configurations and scripts for the RoboParty robots.
 
 ## Features
 
@@ -11,6 +11,6 @@ This repository contains deployment and runtime configurations for the RoboParty
 ## Installation
 
 ```bash
-sudo apt install roboto-deploy
+sudo apt install roboparty-go
 ```
 Scripts and configs will be placed into the appropriate directories under `/opt/roboparty/`.

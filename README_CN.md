@@ -1,4 +1,4 @@
-# roboto_deploy
+# roboparty_go
 
 本仓库包含 RoboParty 机器人平台在运行期间所需的启动部署脚本与系统层面的配置文件。
 
@@ -12,11 +12,11 @@
 
 在机器人系统上执行：
 ```bash
-sudo apt install roboto-deploy
+sudo apt install roboparty-go
 ```
 对应的脚本及网络配置将自动部署到 `/opt/roboparty/` 相关的目录系统中。
 
-git clone https://github.com/wentywenty/roboto_deploy
+git clone https://github.com/Roboparty/roboparty_go
 
 git submodule update --init --recursive
 

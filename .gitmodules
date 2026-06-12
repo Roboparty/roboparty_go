@@ -1,17 +1,15 @@
 [submodule "linux-router"]
 	path = linux-router
 	url = https://github.com/garywill/linux-router.git
-[submodule "roboto_imu"]
-	path = roboto_imu
-	url = https://github.com/Roboparty/roboto_imu.git
-[submodule "roboto_motors"]
-	path = roboto_motors
-	url = https://github.com/Roboparty/roboto_motors.git
-	branch = 2.0.0
-[submodule "roboto_example"]
-	path = roboto_example
-	url = https://github.com/Roboparty/roboto_example.git
-[submodule "roboto_inference"]
-	path = roboto_inference
-	url = https://github.com/Roboparty/roboto_inference.git
-	branch = 1.4.1
+[submodule "roboparty_imu"]
+	path = roboparty_imu
+	url = https://github.com/wentywenty/roboparty_imu.git
+[submodule "roboparty_motors"]
+	path = roboparty_motors
+	url = https://github.com/wentywenty/roboparty_motors.git
+[submodule "roboparty_example"]
+	path = roboparty_example
+	url = https://github.com/Roboparty/roboparty_example.git
+[submodule "roboparty_inference"]
+	path = roboparty_inference
+	url = https://github.com/wentywenty/roboparty_inference.git

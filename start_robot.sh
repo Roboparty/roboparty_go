@@ -145,7 +145,7 @@ if [ "$SCRIPT_DIR" = "/opt/roboparty/bin" ]; then
     source "$BASE_DIR/setup.bash"
     SETUP_BASH="/opt/ros/humble/setup.bash && source $BASE_DIR/setup.bash"
 else
-    # 本地开发模式（脚本在 roboto_deploy 目录下）
+    # 本地开发模式（脚本在 roboparty_go 目录下）
     BASE_DIR="$SCRIPT_DIR"
     CFG_BASE="$BASE_DIR/roboto_inference/config"
     print_info "检测到本地开发模式，BASE_DIR=$BASE_DIR"
