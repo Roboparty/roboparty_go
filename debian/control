@@ -1,0 +1,14 @@
+Source: roboto-deploy
+Section: misc
+Priority: optional
+Maintainer: RoboParty <ZhihaoLiu_hit@163.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+
+Package: roboto-deploy
+Architecture: all
+Depends: roboto-base (>= 1.0.0), screen, ${misc:Depends}
+Description: RoboParty deployment scripts
+ Robot startup scripts and Fast DDS real-time QoS profile.
+ Provides start_robot.sh for launching inference and joystick
+ nodes in screen sessions.
