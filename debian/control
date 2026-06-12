@@ -7,7 +7,7 @@ Standards-Version: 4.6.0
 
 Package: roboparty-go
 Architecture: all
-Depends: roboto-base (>= 1.0.0), screen, ${misc:Depends}
+Depends: roboparty-base (>= 1.0.0), screen, ${misc:Depends}
 Description: RoboParty go scripts
  Robot startup scripts and Fast DDS real-time QoS profile.
  Provides start_robot.sh for launching inference and joystick

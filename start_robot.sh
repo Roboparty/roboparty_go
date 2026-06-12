@@ -138,7 +138,7 @@ export RMW_FASTRTPS_USE_QOS_FROM_XML=1
 if [ "$SCRIPT_DIR" = "/opt/roboparty/bin" ]; then
     # Debian 安装模式
     BASE_DIR="/opt/roboparty"
-    CFG_BASE="$BASE_DIR/share/roboto-inference/config"
+    CFG_BASE="$BASE_DIR/share/roboparty-inference/config"
     print_success "检测到 Debian 安装模式，BASE_DIR=$BASE_DIR"
     export FASTRTPS_DEFAULT_PROFILES_FILE="$BASE_DIR/share/rt_fastdds_profile.xml"
     source /opt/ros/humble/setup.bash
@@ -147,7 +147,7 @@ if [ "$SCRIPT_DIR" = "/opt/roboparty/bin" ]; then
 else
     # 本地开发模式（脚本在 roboparty_go 目录下）
     BASE_DIR="$SCRIPT_DIR"
-    CFG_BASE="$BASE_DIR/roboto_inference/config"
+    CFG_BASE="$BASE_DIR/roboparty_inference/config"
     print_info "检测到本地开发模式，BASE_DIR=$BASE_DIR"
     export FASTRTPS_DEFAULT_PROFILES_FILE="$BASE_DIR/rt_fastdds_profile.xml"
 
@@ -243,7 +243,7 @@ INFERENCE_LAUNCH_ARGS="inference_config:=$INFERENCE_CFG robot_config:=$ROBOT_CFG
 print_info "inference 配置: $INFERENCE_CFG"
 print_info "robot 配置: $ROBOT_CFG"
 
-start_component "inference_session" "ros2 launch roboto-inference inference.launch.py $INFERENCE_LAUNCH_ARGS" "inference_node" 5
+start_component "inference_session" "ros2 launch roboparty-inference inference.launch.py $INFERENCE_LAUNCH_ARGS" "inference_node" 5
 # joy 已包含在 launch 文件中，无需单独启动
 # start_component "joy_session" "ros2 run joy joy_node" "joy_node" 2
 
