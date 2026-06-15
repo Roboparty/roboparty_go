@@ -1,15 +1,3 @@
 [submodule "linux-router"]
 	path = linux-router
 	url = https://github.com/garywill/linux-router.git
-[submodule "roboparty_imu"]
-	path = roboparty_imu
-	url = https://github.com/wentywenty/roboparty_imu.git
-[submodule "roboparty_motors"]
-	path = roboparty_motors
-	url = https://github.com/wentywenty/roboparty_motors.git
-[submodule "roboparty_example"]
-	path = roboparty_example
-	url = https://github.com/Roboparty/roboparty_example.git
-[submodule "roboparty_inference"]
-	path = roboparty_inference
-	url = https://github.com/wentywenty/roboparty_inference.git
